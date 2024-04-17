@@ -5,7 +5,7 @@ body {
   background-color: rgb(114, 83, 100);
   text-align: center;
   padding: 100px;
-  margin: 200px;
+  margin: 150px;
 }
 
 h1 {
@@ -13,6 +13,7 @@ h1 {
 }
 p {
   font-size: 20px;
+  
 }
 p#message {
   font-size: 26px;
@@ -37,4 +38,32 @@ input#guess {
   font-size: 15px;
   border: 2px solid #00000044;
   border-radius: 16px;
+}
+
+@media screen and (max-width: 1020px) {
+* {
+  margin: 0px;
+}
+body {
+  background-color: rgb(114, 83, 100);
+  text-align:center;
+  padding: 50px;
+  margin: 100px;
+}
+  h1 {
+  font-size: 35px;
+}
+p#message {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+}
+input#guess {
+  width: 100px;
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 15px;
+  border: 2px solid #00000044;
+  border-radius: 16px;
+}
 }
