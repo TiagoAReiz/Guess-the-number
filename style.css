@@ -51,7 +51,11 @@ body {
   margin: 100px;
 }
   h1 {
-  font-size: 35px;
+  font-size: 25px;
+}
+p {
+  font-size: 17px;
+  
 }
 p#message {
   font-size: 20px;
@@ -59,7 +63,7 @@ p#message {
   font-style: oblique;
 }
 input#guess {
-  width: 100px;
+  width: 80px;
   margin-top: 25px;
   padding: 10px;
   font-size: 15px;
