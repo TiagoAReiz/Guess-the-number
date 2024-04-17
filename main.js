@@ -13,3 +13,8 @@ function checkGuess() {
     message.innerHTML = "Your guess is too high"
   }
 }
+function resetGuess( ){
+  randomNumber = Math.floor(Math.random() * 100)
+  message.innerHTML = 'Reseted'
+  document.getElementById("guess").value = ''
+}
